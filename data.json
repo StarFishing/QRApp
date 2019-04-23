@@ -1,0 +1,39 @@
+{
+  "capter": "第一章",
+  "data": [
+    {
+      "part": "第一节",
+      "description": "本节主要讲解数据结构",
+      "work": {
+        "title": "数据结构",
+        "data": [
+          {
+            "name": "数据类型",
+            "choice": ["int", "float", "double", "short"]
+          },
+          {
+            "name": "链表类型",
+            "choice": ["单链表", "循环链表", "双链表", "无选项"]
+          }
+        ]
+      }
+    },
+    {
+      "part": "第二节",
+      "description": "本节主要讲解单链表",
+      "work": {
+        "title": "单链表",
+        "data": [
+          {
+            "name": "数据类型",
+            "choice": ["int", "float", "double", "short"]
+          },
+          {
+            "name": "链表类型",
+            "choice": ["单链表", "循环链表", "双链表", "无选项"]
+          }
+        ]
+      }
+    }
+  ]
+}
