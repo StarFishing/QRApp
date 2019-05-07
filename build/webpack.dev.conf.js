@@ -14,6 +14,7 @@ const HOST = process.env.HOST
 const PORT = process.env.PORT && Number(process.env.PORT)
 var app = express()
 var appData = require('../data.json')
+var studentData = require('../student.json')
 var apiRoutes = express.Router()
 app.use('/api', apiRoutes)
 
@@ -32,6 +33,9 @@ const devWebpackConfig = merge(baseWebpackConfig, {
     before (app) {
       app.get('/api/data', function (req, res) {
         res.json(appData)
+      })
+      app.get('/api/student', function (req, res) {
+        res.json(studentData)
       })
     },
     clientLogLevel: 'warning',

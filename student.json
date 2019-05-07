@@ -1,0 +1,36 @@
+{
+  "data": [
+    {
+      "name": "成龙",
+      "stuId": "3150611011",
+      "class": "物联网1502",
+      "currentTsk": 25,
+      "rightPercent": 80,
+      "Allprogress": 40
+    },
+    {
+      "name": "汪峰",
+      "stuId": "3150611082",
+      "class": "物联网1502",
+      "currentTsk": 90,
+      "rightPercent": 80,
+      "Allprogress": 80
+    },
+    {
+      "name": "李连杰",
+      "stuId": "3150614011",
+      "class": "物联网1501",
+      "currentTsk": 70,
+      "rightPercent": 80,
+      "Allprogress": 50
+    },
+    {
+      "name": "张杰",
+      "stuId": "3150611022",
+      "class": "物联网1501",
+      "currentTsk": 80,
+      "rightPercent": 70,
+      "Allprogress": 80
+    }
+  ]
+}

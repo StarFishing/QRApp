@@ -9,11 +9,13 @@
         "data": [
           {
             "name": "数据类型",
-            "choice": ["int", "float", "double", "short"]
+            "choice": ["int", "float", "double", "short"],
+            "state": 0
           },
           {
             "name": "链表类型",
-            "choice": ["单链表", "循环链表", "双链表", "无选项"]
+            "choice": ["单链表", "循环链表", "双链表", "无选项"],
+            "state": 0
           }
         ]
       }
@@ -26,11 +28,13 @@
         "data": [
           {
             "name": "数据类型",
-            "choice": ["int", "float", "double", "short"]
+            "choice": ["int", "float", "double", "short"],
+            "state": 0
           },
           {
             "name": "链表类型",
-            "choice": ["单链表", "循环链表", "双链表", "无选项"]
+            "choice": ["单链表", "循环链表", "双链表", "无选项"],
+            "state": 0
           }
         ]
       }
