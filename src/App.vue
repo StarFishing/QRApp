@@ -1,6 +1,5 @@
 <template>
-  <div id="app"
-       @touchmove.prevent>
+  <div id="app">
 
     <keep-alive>
       <router-view></router-view>
@@ -19,6 +18,13 @@ export default {
   }
 }
 </script>
-
 <style>
+.ivu-input[disabled],
+fieldset[disabled] .ivu-input {
+  background-color: #f3f3f3;
+  opacity: 1;
+  cursor: not-allowed;
+  /* color: #515a6e; */
+  color: black;
+}
 </style>
